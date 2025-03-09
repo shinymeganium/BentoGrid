@@ -1,0 +1,24 @@
+{
+  "name": "bentogrid",
+  "version": "1.0.0",
+  "description": "A Bento Grid coding challenge from Frontend Mentor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinymeganium/BentoGrid.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shinymeganium/BentoGrid/issues"
+  },
+  "homepage": "https://github.com/shinymeganium/BentoGrid#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.12",
+    "tailwindcss": "^4.0.12"
+  }
+}
