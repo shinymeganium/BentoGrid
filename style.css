@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+    --color-susydarkpurple: #7651dc;
+    --color-susylightpurple: #dcd1fc;
+    --color-susyyellow: #ffcd69;
+    --color-susylightbrown: #faeee2;
+    
+}
+body {
+    background: bg-gray-100;
+}
