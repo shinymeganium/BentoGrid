@@ -4,72 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="output.css">
-    <title>Document</title>
+    <title>Bento Grid</title>
 </head>
 <body>
-    <div class="sm:min-w-11/12 sm:flex sm:flex-row sm:m-auto justify-center md:flex-row-reverse md:gap-6 md:w-[1120px] md:h-[880px] p-3">
-        <div class="md:w-3/4 md:grid md:grid-rows-3 md:grid-cols-3">
+    <div class="flex justify-center items-center">
+        <div class="w-2/3 flex justify-center items-center">
+            <div class="grid md:grid-cols-4 gap-6 border">
 
-            <div class="md:grid md:row-span-3 md:col-span-3 md:gap-x-6 border">
-
-                <!-- 1 -->
-                <div class="bg-susydarkpurple mb-6 py-8 rounded-xl flex flex-col items-center md:grid md:col-span-2">
-                    <p class="text-white text-5xl text-center pb-6">Social Media<br><span class="text-amber-400">10x</span> Faster<br>with AI</p>
-                    <img class="w-1/2 block" src="images\illustration-five-stars.webp" alt="5-stars"><br>
-                    <p class="text-white text-xl">Over 4,000 5-star reviews</p>
+                <!-- 1-6 -->
+                <div class="grid my-6 md:col-start-2 md:col-span-3 gap-6">
+    
+                    <!-- 1 -->
+                    <div class="bg-susydarkpurple rounded-xl p-8 grid md:col-span-2">
+                        <p class="text-white text-5xl text-center pb-6">Social Media<br class="md:hidden"><span class="text-amber-400">10x</span> Faster<br>with AI</p>
+                        <img src="images\illustration-five-stars.webp" alt="5 stars" class="w-1/2 block m-auto">
+                        <p class="text-white text-xl m-auto">Over 4,000 5-star reviews</p>
+                    </div>
+    
+                    <!-- 2 -->
+                    <div class="bg-white rounded-xl p-4 grid">
+                        <img class="block m-auto md:overflow-hidden" src="images\illustration-multiple-platforms.webp" alt="multiple platforms">
+                        <p class="text-2xl mt-2 text font-semibold pr-6">Manage multiple accounts and platforms.</p>
+                    </div>
+    
+                    <!-- 3 -->
+                    <div class="bg-susyyellow rounded-xl px-4 pt-2 grid">
+                        <p class="text-2xl pb-2 font-semibold pr-8">Maintain a consistent posting schedule.</p>
+                        <!-- fix image, needs to be cropped -->
+                        <img class="block w-2/3" src="images\illustration-consistent-schedule.webp" alt="consistent schedule">
+                    </div>
+    
+                    <!-- 4 -->
+                    <div class="bg-susylightpurple rounded-xl px-4 py-6 grid md:row-start-1 md:row-span-2 md:col-start-3">
+                        <p class="text-2xl font-semibold m-auto">Schedule to social media.</p>
+                        <img class="block py-3" src="images\illustration-schedule-posts.webp" alt="schedule posts">
+                        <p class="text-[17px] text-center px-8">Optimize post timing to publish content at the perfect time for your audience.</p>
+                    </div>
+    
+                    <!-- 5 -->
+                    <div class="bg-susydarkpurple rounded-xl px-4 py-6 grid md:col-span-2">
+                        <img class="block m-auto w-2/3 md:w-1/4" src="images\illustration-grow-followers.webp" alt="grow followers"><br>
+                        <p class="text-3xl text-white text-center font-medium mx-15">Grow followers with non-stop content.</p>
+                    </div>
+    
+                    <!-- 6 -->
+                    <div class="bg-white rounded-xl p-4 grid md:row-start-3 md:col-start-1">
+                        <p class="text-5xl pb-1">>56%</p>
+                        <p class="text-[17px] pb-4">faster audience growth</p>
+                        <img class="w-1/2" src="images\illustration-audience-growth.webp" alt="audience grow">
+                    </div>
                 </div>
-
-                <!-- 2 -->
-                <div class="bg-white mb-6 p-3 rounded-xl flex flex-col items-center md:grid md:row-start-2">
-                    <img class="block m-auto" src="images\illustration-multiple-platforms.webp" alt="multiple platforms">
-                    <p class="text-2xl mt-2 text font-semibold pr-6">Manage multiple accounts and platforms.</p>
+    
+                <!-- 7-8 -->
+                <div class="grid md:my-6 md:row-start-1 gap-6">
+    
+                    <!-- 7 -->
+                    <div class="bg-susylightbrown rounded-xl p-6 grid">
+                        <p class="text-3xl pr-8 pb-5 md:text-left">Create and schedule content <span class="text-susydarkpurple italic">quicker.</span></p>
+                        <img class="block w-1/2 pb-3" src="images\illustration-create-post.webp" alt="create post">
+                    </div>
+    
+                    <!-- 8 -->
+                    <div class="bg-susyyellow rounded-xl p-6 grid">
+                        <p class="text-3xl pb-5">Write your content using AI.</p>
+                        <img class="block w-3/4" src="images\illustration-ai-content.webp" alt="AI content">
+                    </div>
                 </div>
-
-                <!-- 3 -->
-                <div class="bg-susyyellow mb-6 p-3 pb-0 rounded-xl flex flex-col items-start md:grid md:row-start-2">
-                    <p class="text-2xl pb-2 font-semibold pr-8">Maintain a consistent posting schedule.</p>
-                    <img class="block w-2/3" src="images\illustration-consistent-schedule.webp" alt="consistent schedule">
-                </div>
-
-                <!-- 4 -->
-                <div class="bg-susylightpurple mb-6 px-3 py-6 rounded-xl flex flex-col items-center md:grid md:row-start-1 md:col-start-3 md:row-span-2">
-                    <p class="text-2xl font-semibold">Schedule to social media.</p>
-                    <img class="block py-3" src="images\illustration-schedule-posts.webp" alt="schedule posts">
-                    <p class="text-[17px] text-center font-medium px-12">Optimize post timing to publish content at the perfect time for your audience.</p>
-                </div>
-            </div>
-
-            <div class="md:grid md:col-span-3 md:gap-3 border">
-
-                <!-- 5 -->
-                <div class="bg-susydarkpurple mb-6 px-3 py-6 rounded-xl md:row-start-3 md:col-start-2 col-span-2">
-                    <img class="block m-auto w-2/3 pb-8 md:w-1/4" src="images\illustration-grow-followers.webp" alt="grow followers">
-                    <p class="text-3xl text-white text-center font-medium mx-15">Grow followers with non-stop content.</p>
-                </div>
-
-                <!-- 6 -->
-                <div class="bg-white mb-6 p-3 rounded-xl md:row-start-3">
-                    <p class="text-5xl pb-1">>56%</p>
-                    <p class="text-[17px] pb-4">faster audience growth</p>
-                    <img class="w-1/2" src="images\illustration-audience-growth.webp" alt="audience grow">
-                </div>
-            </div>
-        </div>
-
-        <div class="md:w-1/4 md:flex md:flex-row xl:w-1/4 xl:flex xl:flex-col">
-
-            <!-- 7 -->
-            <div class="bg-susylightbrown mb-6 p-6 rounded-xl flex flex-col items-start md:h-1/2">
-                <p class="text-3xl pr-8 pb-5">Create and schedule content <span class="text-susydarkpurple italic">quicker.</span></p>
-                <img class="block w-1/2 pb-3" src="images\illustration-create-post.webp" alt="create post">
-            </div>
-
-            <!-- 8 -->
-            <div class="bg-susyyellow mb-6 p-6 rounded-xl flex flex-col items-start md:h-1/2%">
-                <p class="text-3xl pb-5">Write your content using AI.</p>
-                <img class="block w-3/4" src="images\illustration-ai-content.webp" alt="AI content">
             </div>
         </div>
     </div>
 </body>
 </html>
+<!-- Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process -->
+<!-- npx @tailwindcss/cli -i input.css -o output.css --watch -->
