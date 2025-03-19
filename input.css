@@ -9,5 +9,21 @@
 }
 body {
     /* background-color: #f0f0f0; */
+    margin: auto;
     background-color: rosybrown;
+    /* border: 1px solid black; */
 }
+/* for index2 */
+/* @media (width >= 48rem) { 
+    body {
+        /* width: 700px; 
+        height: 500px;
+    }
+ }
+
+@media (width >= 64rem) { 
+    body {
+        /* width: 1250px; 
+        height: 700px;
+    }
+ } */
